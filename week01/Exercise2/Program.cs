@@ -31,13 +31,13 @@ class Program
              letter = "F";
         }
 
-        float last_digit = gradePercentage %10;
+        float lastDigit = gradePercentage %10;
 
-        if (last_digit >= 7)
+        if (lastDigit >= 7)
         {
              sign = "+";
         }
-        else if (last_digit < 3)
+        else if (lastDigit < 3)
         {
              sign = "-";
         }
